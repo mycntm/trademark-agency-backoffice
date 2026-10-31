@@ -52,7 +52,7 @@ PHP 8.1+ · MySQL 8 · no framework, no build step · MIT
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-org>/trademark-agency-backoffice.git
+git clone https://github.com/mycntm/trademark-agency-backoffice.git
 cd trademark-agency-backoffice
 
 cp config.example.php config.php     # then edit db / smtp / security.csrf_secret
@@ -124,6 +124,8 @@ If you deploy this, generate a fresh `csrf_secret` and rotate every credential y
 ## 中文简介
 
 这是一套**商标代理机构业务后台**，PHP 8.1 + MySQL，无需框架、无需构建步骤。覆盖「询价 → 报价 → 订单 → 收款（银行转账 / PayPal）→ 文件收集 → 进度时间线」全流程，中英双语界面，含管理后台、发信队列、限流与静默反垃圾。
+
+代码取自 china-trademark.net 的生产系统，该门户已被新系统替代后整理开源。数据库口令、银行账户、公司公章、客户数据均已移除，配置项改为 `example.com` 占位符。
 
 ## License
 
